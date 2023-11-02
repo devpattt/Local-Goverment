@@ -1,3 +1,36 @@
+<?php
+session_start();
+
+  include("connection.php");
+  include("functions.php");
+
+  if($_SERVER['REQUEST_METHOD'] == "POST")
+  {
+    //POSTED SOMETHING SA FORM
+    $user_name = $_POST['user_name'];
+    $password = $_POST['password'];
+    $email = $_POST['email'];
+
+    if(!empty($user_name) && !empty($password) && !is_numeric($user_name))
+    {
+      //SAVE SA DATABASE
+      $user_id = random_num(20);
+      $query = "insert into users (user_id,user_name,password,email) values ('$user_id','$user_name','$password','$email')";  
+
+      mysqli_query($con, $query);
+     header("Location: signinpanel.php");
+      die;
+
+    }else
+    {
+      echo "Please enter some valid informaiton";
+    }
+  }
+  
+       
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,7 +45,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="forms-container">
+      <div id="forms-container">
         <div class="signin-signup">
           <form action="#" class="sign-in-form">
             <h2 class="title">Sign in</h2>
@@ -36,42 +69,37 @@
               <a href="#" class="social-icon">
                 <i class="fab fa-google"></i>
               </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
+
             </div>
           </form>
-          <form action="#" class="sign-up-form">
-            <h2 class="title">Sign up</h2>
-            <div class="input-field">
-              <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
-            </div>
-            <div class="input-field">
-              <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Email" />
-            </div>
-            <div class="input-field">
-              <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
-            </div>
-            <input type="submit" class="btn" value="Sign up" />
-            <p class="social-text">Or Sign up with social platforms</p>
-            <div class="social-media">
-              <a href="#" class="social-icon">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-google"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div>
-          </form>
+          <form action="#" class="sign-up-form" method="POST">
+          <h2 class="title">Sign up</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" name="user_name" placeholder="Username" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="text" name="email" placeholder="Email" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" name="password" placeholder="Password" />
+          </div>
+          <input type="submit" class="btn" value="Sign up" />
+          <p class="social-text">Or Sign up with social platforms</p>
+          <div class="social-media">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-google"></i>
+            </a>
+          </div>
+        </form>
         </div>
       </div>
 
