@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Local Goverment Unit</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/edd0240440.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -24,7 +24,7 @@
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
-            <!--header-->
+            <!--HEADER-->
             <div class="header-text">
                 <p></p>
                 <h1><span> Local<br> Goverment</span><br> Unit</h1>
@@ -37,8 +37,8 @@
             </div>
         </div>
     </div>
-    <!--About-->
-    <div id="about">
+   <!--ABOUT-->
+   <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
@@ -57,21 +57,24 @@
 
                      <div class="tab-contents active-tab" id="developers">
                         <ul>
-                            <li><span>Project Team</span><br>Patrick Nobleza, Joyvie Rebamontan, Cristobal Aeron, Bordamonte Jobert, <br> 
-                        Trinidad Paul William, Bazar John Nathaniel, Canellas Sherwin, Valete Marjorie.</li>
-                           
-                            
+                            <li><span>Project Team</span><br>Nobleza patrick, Rebamontan Joyvie, Cristobal Aeron, Bordamonte Jobert, <br> 
+                        Trinidad Paul William, Bazar John Nathaniel, Canellas Sherwin, Valete Marjorie<br>
+                        Cris Mortes, Magsadia John Cedric, Del Moro Jhon Dave, Galang Rheyvin<br>
+                        Vega John Christian, Mendoza Andrey, Panganiban Mariz Estella, Aco Alexis<br>
+                        Junio Joemel, Gullim Justine, Padayao Reneelet, Maloloyon Venson<br>
+                        Gallardo Winslet  </li>
 
                         </ul>
                      </div>
                      <div class="tab-contents" id="location">
                         <ul>
-                            <li><span>Earth</span><br>Sa lugar kung saan wala ka, kung saan wala si bazar,<br> kung saan tahimik na nag yoyosi si sherwin.</li>
+                            <li><span>Quezon City Hall</span><br>Mayaman, Diliman, Lungsod Quezon, Kalakhang Maynila</li>
         
                         </ul>
                      </div>  <div class="tab-contents" id="contacts">
                         <ul>
-                            <li><span>Mobile Number</span><br>1234567777890</li>
+                            <li><span>Mobile Number</span><br>09168328108</li>
+                            <li><span>Email</span><br>patsandesu@gmail.com</li>
                         
                         </ul>
                      </div>
@@ -79,22 +82,16 @@
             </div>
         </div>
     </div>
-    <!--services section-->
-    <div class="services">
+    <!--SERVICES-->
+    <div id="services">
         <div class="container">
             <h1 class="sub-title">Our <span>Services</span></h1>
             <div class="services-list">
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Citizen Services Engagement</h2>
-                    <p>This will include information, objectives, and developments related to improving citizen services and involvement within municipality.</p>
-                    <a href="#">Read More</a>
-                </div>
+
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
                     <h2>Real Property Tax Management</h2>
-                    <p>Use outline improvements and objectives for managing real property taxes efficiently.
-Business Permit and Licensing: Keep up with new innovations and improvements in the administration of business licenses and permits.</p>
+                    <p>Use outline improvements and objectives for managing real property taxes efficiently.</p>
                     <a href="#">Learn More</a>
                 </div> 
                  <div>
@@ -105,147 +102,121 @@
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Public Market and Vendors</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <h2>Public Market and Vendors Management</h2>
+                    <p>Document improvements in managing public markets and vendors.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Financial and Budgeting Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <h2>Financial Management and Budgeting</h2>
+                    <p>Keep track of adjustments and developments in the budgeting and financial management processes.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>HUman Resources and Payroll</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <h2>Human Resource Payroll</h2>
+                    <p>Describe enhancements in human resource management and payroll systems.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Eelction and Voter Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <a href="election&voter.php" class="box-link">
+                    <h2>Election and Voter Management</h2>
+                    <p>Outline strategies and improvements in election and voter management.    </p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Eelction and Voter Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <h2>Solid Waste Management</h2>
+                    <p>Record initiatives and progress related to solid waste management</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Eelction and Voter Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <h2>Infrastructure and Public Works</h2>
+                    <p>Track Projects and developments in infrastructure and public wors management.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Eelction and Voter Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <h2>Social Welfare and Community Development</h2>
+                    <p>Describe Programs and improvements in social welfare and community development.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Eelction and Voter Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <h2>Health Services and Sanitation</h2>
+                    <p>Document enhancements in health services and sanitation management</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Eelction and Voter Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <h2>Document Management and Records</h2>
+                    <p>Detail improvements in document management and record-keeping.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Eelction and Voter Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <h2>GIS Mapping</h2>
+                    <p>Record advancements in GIS mapping technology and its applications.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Eelction and Voter Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <h2>Community Engagement and Communication</h2>
+                    <p>Document efforts to promote accessibility and inclusion within the municipality.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Eelction and Voter Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <h2>Accessibility Inclusion</h2>
+                    <p>Document efforts to promote accessibility and inclusion within the municipality.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Eelction and Voter Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <h2>Analytics and Reporting</h2>
+                    <p>Describe the implementation of analytics and reporting tools for data-driven decision-making.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Eelction and Voter Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Eelction and Voter Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
-                    <a href="#">Learn More</a>
-                </div><div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Eelction and Voter Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nemo consequuntur neque voluptate. Eum tempore reiciendis placeat.</p>
+                    <h2>Integration and Data Sharing</h2>
+                    <p>Track Progress in integrating systems and sharing data among municipal departments.</p>
                     <a href="#">Learn More</a>
                 </div>
             </div>
         </div>
     </div>
-    <!---Portfolio Design-->
+    <!---PROJECTS-->
     <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">Latest <span>Project</span></h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="img/CITIZEN-removebg-preview.png">
+                    <img src="img/TULEEEEEEEEEEE.jpg">
                     <div class="layer">
-                        <h3>Online Shopping App</h3>
-                        <p>The app connects you the talented people around the world. Download it from play store</p>
+                        <h3>Libreng Tuli 2023</h3>
+                        <p>Libreng tuli para sa ating mga bagets!</p>
                         <a href="#"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
                 
                 <div class="work">
-                    <img src="img/socialmedia.png">
+                    <img src="img/EMERGENCY AWARENESS.jpg">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>The app connects you the talented people around the world. Download it from play store</p>
+                        <h3>Emergency Awareness</h3>
+                        <p>Conducts an Emergency Response Training</p>
                         <a href="#"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
 
 
                 <div class="work">
-                    <img src="img/musicapp.png">
+                    <img src="img/PABAHAY.jpg">
                     <div class="layer">
-                        <h3>Music App</h3>
-                        <p>The app connects you the talented people around the world. Download it from play store</p>
+                        <h3>Housing Project</h3>
+                        <p>Libreng pabahay para mga kapus-palad</p>
                         <a href="#"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
@@ -255,8 +226,8 @@
     </div>
 
 
-    <!--contact-->
-    <div class="contact">
+    <!--CONTACTS-->
+    <div id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
@@ -270,7 +241,7 @@
                         <a href="#"><i class="fab fa-twitter-square"></i></a>
                        
                     </div>
-                    <a href="img/@Shakku Resume.pdf" download class="btn btn2">Download CV</a>
+                    <a href="img/Resume.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form>
