@@ -1,21 +1,7 @@
 <?php
 session_start();
 
-if(isset($_SESSION['user_id'])) {
-    // User is logged in, display their data
-    $user_id = $_SESSION['user_id'];
-    $user_name = $_SESSION['user_name'];
-    
-    // You can display user-specific content here
-    echo "Welcome, $user_name!";
-    // You can display more user data or other content as needed
-} else {
-    // User is not logged in, display a message or redirect to the login page
-    header("Location: singninpanel.php"); // Redirect to the login page if not logged in
-    exit(); // Terminate the script
-}
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
