@@ -40,12 +40,12 @@ session_start();
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="img/Quezon_City.svg.png">
+                    <img src="img/garbage-truck-clipart-design-illustration-free-png.webp">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About <span>Us</span></h1>
-                    <h3>Welcome to Local Goverment Unit<br><br></h3>
-                    <p>We are more than just a local government entity; we are a family bound by a common purpose – to serve, protect, and uplift the lives of our community members.</p>
+                    <h3>Welcome to Solid Waste Management<br><br></h3>
+                    <p>"We are more than just a solid waste management organization; we are a dedicated team bound by a common purpose – to preserve, clean, and enhance the environment of our community. We are committed to managing waste responsibly, ensuring a cleaner and healthier future for all our residents."</p>
                      
                      <div class="tab-title">
                         <p class="tab-links active-link" onclick="opentab('developers')">Developers</p>
@@ -66,7 +66,7 @@ session_start();
                      </div>
                      <div class="tab-contents" id="location">
                         <ul>
-                            <li><span>Quezon City Hall</span><br>Mayaman, Diliman, Lungsod Quezon, Kalakhang Maynila</li>
+                            <li><span>Quezon City </span><br>Kung saan maraming basura</li>
         
                         </ul>
                      </div>  <div class="tab-contents" id="contacts">
@@ -88,8 +88,8 @@ session_start();
 
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Real Property Tax Management</h2>
-                    <p>Use outline improvements and objectives for managing real property taxes efficiently.</p>
+                    <h2>Book Garbage Truck</h2>
+                    <p>Wait lang po</p>
                     <a href="#">Learn More</a>
                 </div> 
                  <div>
@@ -98,91 +98,7 @@ session_start();
                     <p>Better land use and zoning management detail plans and activities.</p>
                     <a href="#">Learn More</a>
                 </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Public Market and Vendors Management</h2>
-                    <p>Document improvements in managing public markets and vendors.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Financial Management and Budgeting</h2>
-                    <p>Keep track of adjustments and developments in the budgeting and financial management processes.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Human Resource Payroll</h2>
-                    <p>Describe enhancements in human resource management and payroll systems.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <a href="election&voter.php" class="box-link">
-                    <h2>Election and Voter Management</h2>
-                    <p>Outline strategies and improvements in election and voter management.    </p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Solid Waste Management</h2>
-                    <p>Record initiatives and progress related to solid waste management</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Infrastructure and Public Works</h2>
-                    <p>Track Projects and developments in infrastructure and public wors management.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Social Welfare and Community Development</h2>
-                    <p>Describe Programs and improvements in social welfare and community development.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Health Services and Sanitation</h2>
-                    <p>Document enhancements in health services and sanitation management</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Document Management and Records</h2>
-                    <p>Detail improvements in document management and record-keeping.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>GIS Mapping</h2>
-                    <p>Record advancements in GIS mapping technology and its applications.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Community Engagement and Communication</h2>
-                    <p>Document efforts to promote accessibility and inclusion within the municipality.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Accessibility Inclusion</h2>
-                    <p>Document efforts to promote accessibility and inclusion within the municipality.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Analytics and Reporting</h2>
-                    <p>Describe the implementation of analytics and reporting tools for data-driven decision-making.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Integration and Data Sharing</h2>
-                    <p>Track Progress in integrating systems and sharing data among municipal departments.</p>
-                    <a href="#">Learn More</a>
-                </div>
+                
             </div>
         </div>
     </div>
