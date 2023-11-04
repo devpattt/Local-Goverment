@@ -200,19 +200,53 @@ nav ul li a:hover::after{
     font-weight: 500;
     margin-bottom: 15px;
 }
+/* css ng mga text at truck */
+.services-list div {
+    text-align: center; /* Center-align the text within the div */
+}
 
-.services-list div a{
+.services-list div a {
     text-decoration: none;
-    color: #fff;
+    color: #ce0000;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
-
 }
+
 
 .services-list div:hover{
     background: linear-gradient(#4c00ff,#ff00e6);
     transform: translateY(-10px);
+}
+
+.services-list h2{
+position: relative;
+}
+
+.truck {
+    width: 250px; /* Set the desired width for the truck image */
+    height: auto; /* Maintain the aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally within the container */
+    position: relative;
+    top: 0; /* Keep it at the same position vertically */
+    left: 0; /* Keep it at the same position horizontally */
+}
+
+.services-list h2 {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #ffffff; /* Set the text color */
+    text-transform: uppercase; /* Convert text to uppercase */
+    text-align: center; /* Center the text horizontally */
+    margin-top: 10px; /* Add space between the image and text */
+}
+
+.services-list p {
+    font-size: 13px; /* Adjust the font size as needed */
+    color: #ffffff; /* Set the text color */
+    text-transform: uppercase; /* Convert text to uppercase */
+    text-align: center; /* Center the text horizontally */
+    margin-top: 10px; /* Add space between the image and text */
 }
 
 /*portfolio*/

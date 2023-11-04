@@ -82,15 +82,15 @@ session_start();
             <div class="services-list">
 
                 <div>
-                <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Book Garbage Truck</h2>
-                    <p>Wait lang po</p>
+                <img src="img/bluetruck.webp" class="truck">
+                    <h2>LightBlue Truck ni Tanod</h2>
+                    <p>snfsanfnsafnisanfisf</p>
                     <a href="#">Learn More</a>
                 </div> 
                  <div>
-                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <h2>Land Use and Zoning</h2>
-                    <p>Better land use and zoning management detail plans and activities.</p>
+                 <img src="img/yellowtruck.webp" class="truck">
+                    <h2>Yellow Truck ni Tanod</h2>
+                    <p>ughhhh</p>
                     <a href="#">Learn More</a>
                 </div>
                 

@@ -31,7 +31,7 @@ session_start();
             <!--HEADER-->
             <div class="header-text">
                 <p></p>
-                <h1><span> GIA</span><br> Mapping</h1>
+                <h1><span> GIS</span><br> Mapping</h1>
             </div>
         </div>
     </div>
