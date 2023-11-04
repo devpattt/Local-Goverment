@@ -9,10 +9,9 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Local Goverment Unit</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="solidwaste.css">
     <script src="https://kit.fontawesome.com/edd0240440.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
 </head>
 <body>
     <div id="header">   
@@ -24,7 +23,7 @@ session_start();
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <a href="logout.php" class="logout-button">Logout</a>
+                    <a href="index.php" class="home-button">Home</a>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -32,13 +31,7 @@ session_start();
             <!--HEADER-->
             <div class="header-text">
                 <p></p>
-                <h1><span> Local<br> Goverment</span><br> Unit</h1>
-
-                <div class="social-icons">
-                    <a href="https://www.google.com/search?q=nigga+memes&tbm=isch&ved=2ahUKEwjTpoTOwaqCAxW12zgGHdwvDUYQ2-cCegQIABAA&oq=nigga+memes&gs_lcp=CgNpbWcQAzoHCAAQigUQQzoFCAAQgARQzQFYzRJg2xNoAnAAeACAAYsBiAGgCJIBAzAuOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=ck9GZdOlD7W34-EP3N-0sAQ&bih=821&biw=1600&rlz=1C1VDKB_enPH1075PH1075#imgrc=M7c78S6AhHGjtM"><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://www.facebook.com/johncedric.magsadia"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/_vvhen/"><i class="fab fa-instagram"></i></a>
-                </div>
+                <h1><span> Solid<br> Waste</span><br> Management</h1>
             </div>
         </div>
     </div>
@@ -132,7 +125,6 @@ session_start();
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <a href="solidwaste.php" class="box-link">
                     <h2>Solid Waste Management</h2>
                     <p>Record initiatives and progress related to solid waste management</p>
                     <a href="#">Learn More</a>
