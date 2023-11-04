@@ -2,6 +2,7 @@
 session_start();
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,6 +24,7 @@ session_start();
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <a href="logout.php" class="logout-button">Logout</a>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -49,7 +51,7 @@ session_start();
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About <span>Us</span></h1>
-                    <h3>Hello, Welcome to Local Goverment Unit<br><br></h3>
+                    <h3>Welcome to Local Goverment Unit<br><br></h3>
                     <p>We are more than just a local government entity; we are a family bound by a common purpose – to serve, protect, and uplift the lives of our community members.</p>
                      
                      <div class="tab-title">
@@ -224,7 +226,7 @@ session_start();
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See More</a>
+            <a href="#" class="btn">Back to top</a>
         </div>
     </div>
 

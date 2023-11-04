@@ -48,6 +48,21 @@ nav ul li a{
     position: relative;
 }
 
+.logout-button {
+    background:#4c00ff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-shadow: #080808;
+}
+
+.logout-button:hover {
+    background: #ff6600;
+
+}
+
 nav ul li a::after{
     content: '';
     width: 0;
@@ -156,6 +171,7 @@ nav ul li a:hover::after{
 /*services section*/
 #services {
     padding: 30px 0;
+    
 }
 
 .services-list{
@@ -354,6 +370,7 @@ nav .fas{
     display: none;
 }
 
+
 /*media*/
 @media only screen and (max-width: 600px){
     #header{
@@ -384,6 +401,21 @@ nav .fas{
     nav ul li{
     display: block;
     margin: 25px;
+    }
+
+    .logout-button {
+        display: block;
+        margin: 25px auto; 
+        text-align: center; 
+        padding: 10px 20px;
+        background:#4c00ff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .logout-button :hover{
+        background: #ff6600;
     }
 
     nav ul .fas{
