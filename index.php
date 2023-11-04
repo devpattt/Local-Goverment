@@ -163,6 +163,7 @@ session_start();
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
+                    <a href="gismapping.php" class="box-link">
                     <h2>GIS Mapping</h2>
                     <p>Record advancements in GIS mapping technology and its applications.</p>
                     <a href="#">Learn More</a>

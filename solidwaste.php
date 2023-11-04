@@ -48,19 +48,14 @@ session_start();
                     <p>"We are more than just a solid waste management organization; we are a dedicated team bound by a common purpose – to preserve, clean, and enhance the environment of our community. We are committed to managing waste responsibly, ensuring a cleaner and healthier future for all our residents."</p>
                      
                      <div class="tab-title">
-                        <p class="tab-links active-link" onclick="opentab('developers')">Developers</p>
+                        <p class="tab-links active-link" onclick="opentab('developers')">Schedule</p>
                         <p class="tab-links" onclick="opentab('location')">Location</p>
                         <p class="tab-links" onclick="opentab('contacts')">Contacts</p>
                      </div>
 
                      <div class="tab-contents active-tab" id="developers">
                         <ul>
-                            <li><span>Project Team</span><br>Nobleza patrick, Rebamontan Joyvie, Cristobal Aeron, Bordamonte Jobert, <br> 
-                        Trinidad Paul William, Bazar John Nathaniel, Canellas Sherwin, Valete Marjorie<br>
-                        Cris Mortes, Magsadia John Cedric, Del Moro Jhon Dave, Galang Rheyvin<br>
-                        Vega John Christian, Mendoza Andrey, Panganiban Mariz Estella, Aco Alexis<br>
-                        Junio Joemel, Gullim Justine, Padayao Reneelet, Maloloyon Venson<br>
-                        Gallardo Winslet  </li>
+                            <li><span> Monday to Saturday </span> <br> 7:00 AM to 5:00 PM </li>
 
                         </ul>
                      </div>
