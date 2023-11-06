@@ -7,7 +7,6 @@ include("functions.php");
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $user_name = $_POST['user_name'];
     $password = $_POST['password'];
-    $email = $_POST['email'];
 
 
     if (isset($_POST['sign-in'])) {
@@ -23,12 +22,17 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 header("Location: index.php");
                 die;
             } else {
-                echo "Invalid username or password. Please try again.";
+                echo '<div class="error-message">Invalid username or password. Please try again.</div>';
             }
-        } else {
-            echo "Please enter a valid username and password.";
+        } 
+        else {
+            echo '<div class="error-message">Please enter a valid username and password.</div>';
         }
     } elseif (isset($_POST['sign-up'])) {
+        if ($_SERVER['REQUEST_METHOD'] == "POST") {
+            $user_name = $_POST['user_name'];
+            $password = $_POST['password'];
+            $email = $_POST['email'];
         // Sign-Up
         if (!empty($user_name) && !empty($email) && !empty($password) && !is_numeric($user_name)) {
             // Save sa database
@@ -37,9 +41,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             mysqli_query($con, $query);
             header("Location: signup.php");
             die;
+        
         } 
     }
 }
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,6 +79,19 @@ body{
     background-image: url('img/The_Heart_of_Quezon_City.jpg'); /* Specify the path to your image */
     background-size: cover; /* Adjust the background size */
     background-position: center; /* Center the background */
+}
+
+.error-message {
+    color: #ff0000; /* Set the text color for error messages to red */
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff; /* Set the background color to white */
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 10; /* Ensure it's on top of other elements */
 }
 
 .logo {
