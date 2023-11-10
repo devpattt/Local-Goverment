@@ -132,7 +132,7 @@ session_start();
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                    <a href="solidwaste.php" class="box-link">
+                    <a href="solidwastemanagement.php" class="box-link">
                     <h2>Solid Waste Management</h2>
                     <p>Record initiatives and progress related to solid waste management</p>
                     <a href="#">Learn More</a>

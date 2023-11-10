@@ -76,36 +76,35 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    background-image: url('img/The_Heart_of_Quezon_City.jpg'); /* Specify the path to your image */
-    background-size: cover; /* Adjust the background size */
-    background-position: center; /* Center the background */
+    background-image: url('img/The_Heart_of_Quezon_City.jpg'); 
+    background-size: cover;
+    background-position: center; 
 }
 
 .error-message {
-    color: #ff0000; /* Set the text color for error messages to red */
+    color: #ff0000; 
     position: absolute;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #fff; /* Set the background color to white */
+    background-color: #fff;
     padding: 10px 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    z-index: 10; /* Ensure it's on top of other elements */
+    z-index: 10;
 }
 
 .logo {
-    width: 100px; /* Increase the width to make it bigger */
+    width: 100px;
     height: auto;
     margin-right: 10px;
-    margin-top: -20px; /* Adjust margin-top to move it slightly up */
     }
 
 .img {
-    width: 200px; /* Increase the width to make it bigger */
+    width: 200px; 
     height: auto;
     margin-right: 10px;
-    margin-top: -20px; /* Adjust margin-top to move it slightly up */
+    margin-top: -20px; 
     }
 
 .container{
@@ -311,8 +310,6 @@ body{
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email for registeration</span>
                 <input type="text" name="user_name" placeholder="Username" />
@@ -327,8 +324,6 @@ body{
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email password</span>
                 <input type="text" name="user_name" placeholder="Username" />
