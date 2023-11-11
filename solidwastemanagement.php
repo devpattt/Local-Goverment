@@ -17,6 +17,29 @@
     box-sizing: border-box;
 }
 
+
+.home-button-container {
+            display: flex;
+            align-items: center; /* Center vertically */
+        }
+
+        .home-button {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1rem;
+            margin-right: 20px;
+            text-align: center;
+            padding: 10px 15px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .home-button:hover {
+            background-color: #115472; /* Change background color on hover */
+            text-decoration: underline;
+        }
+
 body{
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -283,7 +306,9 @@ body article blockquote{
 
     <div class="container">
         <header>
-            <div class="category">Local Goverment Unit</div>
+        <div class="home-button-container">
+                <a href="index.php" class="home-button"><strong>GO HOME</strong></a>
+            </div>
             <div class="info">
                 <div class="tags">
                    <!-- <i class="fa-solid fa-tag"></i> -->
@@ -293,6 +318,7 @@ body article blockquote{
                 <!-- <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur
                     cupiditate incidunt cumque illo alias, odit dolorem et reprehenderit.</p> -->
             </div>
+            
         </header>
         <article>
             <h1>CONTACT INFORMATION</h1>
