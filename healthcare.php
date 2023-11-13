@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
 
-    <title>Solid Waste Management</title>
+    <title>Health Care Management</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
@@ -314,7 +314,7 @@ body article blockquote{
                    <!-- <i class="fa-solid fa-tag"></i> -->
                   <!--  <span>Coding, Programming</span> -->
                 </div>
-                <h1 class="title">DEPARTMENT OF SANITATION AND CLEANUP WORKS OF QUEZON CITY</h1>
+                <h1 class="title">QUEZON CITY HEALTH DEPARTMENT</h1>
                 <!-- <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur
                     cupiditate incidunt cumque illo alias, odit dolorem et reprehenderit.</p> -->
             </div>

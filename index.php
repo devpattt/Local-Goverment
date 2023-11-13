@@ -62,7 +62,7 @@ session_start();
 
                      <div class="tab-contents active-tab" id="developers">
                         <ul>
-                            <li><span>Project Team</span><br>Nobleza patrick, Rebamontan Joyvie, Cristobal Aeron, Bordamonte Jobert, <br> 
+                            <li><span>Project Team</span><br>Nobleza Patrick, Rebamontan Joyvie, Cristobal Aeron, Bordamonte Jobert, <br> 
                         Trinidad Paul William, Bazar John Nathaniel, Canellas Sherwin, Valete Marjorie<br>
                         Cris Mortes, Magsadia John Cedric, Del Moro Jhon Dave, Galang Rheyvin<br>
                         Vega John Christian, Mendoza Andrey, Panganiban Mariz Estella, Aco Alexis<br>
@@ -151,6 +151,7 @@ session_start();
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
+                <a href="healthcare.php" class="box-link">
                     <h2>Health Services and Sanitation</h2>
                     <p>Document enhancements in health services and sanitation management</p>
                     <a href="#">Learn More</a>
