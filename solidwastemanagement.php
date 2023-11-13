@@ -17,6 +17,9 @@
     box-sizing: border-box;
 }
 
+header .title{
+    color: #fff;
+}
 
 .home-button-container {
             display: flex;
@@ -45,8 +48,7 @@ body{
     display: flex;
     justify-content: center;
     height: 100vh;
-    color: #fff;
-    background-color: #202020;
+    background-color: #fff;
     padding: 50px;
 }
 
@@ -55,7 +57,7 @@ body .container{
 }
 
 body .container header{
-    background: url(img/nigga.jpg) center / cover no-repeat;
+    background: url(img/pexels-nikko-tan-133689.jpg) center / cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -108,7 +110,7 @@ body .details{
 }
 
 body .details .item .item-title{
-    color: #ccc;
+    color: #000000;
 }
 
 body .details .item .item-text{
@@ -130,15 +132,16 @@ body article h4{
 
 body article p{
     margin-bottom: 20px;
-    color: #999;
+    color: #000000;
     font-size: 1.1rem;
 }
 
 body article blockquote{
     margin: 40px 0;
-    background-color: #181818;
+    background-color: #999;
     padding: 30px;
     border-radius: 16px;
+    border-width: 1px;
 }
 
  /* Style for the collapsible box */
@@ -237,7 +240,7 @@ body article blockquote{
             text-align: center;
             cursor: pointer;
             user-select: none; /* Disable text selection for better user experience */
-            color: #181818;
+            color: #000000;
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
         }
@@ -323,7 +326,7 @@ body article blockquote{
     <div class="container">
         <header>
         <div class="home-button-container">
-                <a href="index.php" class="home-button"><strong>GO HOME</strong></a>
+                <a href="index.php" class="home-button"><strong>GO HOME</strong></a>z
             </div>
             <div class="info">
                 <div class="tags">
