@@ -55,7 +55,7 @@ body .container{
 }
 
 body .container header{
-    background: url(img/pexels-nikko-tan-133689.jpg) center / cover no-repeat;
+    background: url(img/nigga.jpg) center / cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -130,7 +130,7 @@ body article h4{
 
 body article p{
     margin-bottom: 20px;
-    color: #fff;
+    color: #999;
     font-size: 1.1rem;
 }
 
@@ -201,21 +201,35 @@ body article blockquote{
             border-radius: 2px;
 
         }
+        .collapsible-box6 {
+            width: 1000px;
+            background-color: #fff;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth transition effect */
+            height: 40px; /* Set an initial height (collapsed state) */
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 2px;
+
+        }
         
         .collapsible-box1:hover {
-            background-color: #999; /* Change background color on hover */
+            background-color: #115472; /* Change background color on hover */
         }
         .collapsible-box2:hover {
-            background-color: #999; /* Change background color on hover */
+            background-color: #115472; /* Change background color on hover */
         }
         .collapsible-box3:hover {
-            background-color: #999; /* Change background color on hover */
+            background-color: #115472; /* Change background color on hover */
         }
         .collapsible-box4:hover {
-            background-color: #999; /* Change background color on hover */
+            background-color: #115472; /* Change background color on hover */
         }
         .collapsible-box5:hover {
-            background-color: #999; /* Change background color on hover */
+            background-color: #115472; /* Change background color on hover */
+        }
+        .collapsible-box6:hover {
+            background-color: #115472; /* Change background color on hover */
         }
         /* Style for the box title */
         .box-title {
@@ -226,7 +240,6 @@ body article blockquote{
             color: #181818;
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
-            
         }
 
         /* Style for the box content */
@@ -234,32 +247,34 @@ body article blockquote{
             padding: 10px;
             font-family: 'Poppins', sans-serif;
             color: #181818;
-
         }
         .box-content2 {
             padding: 10px;
             font-family: 'Poppins', sans-serif;
             color: #181818;
-
         }
         .box-content3 {
             padding: 10px;
             font-family: 'Poppins', sans-serif;
             color: #181818;
-
         }
         .box-content4 {
             padding: 10px;
             font-family: 'Poppins', sans-serif;
             color: #181818;
-
         }
         .box-content5 {
             padding: 10px;
             font-family: 'Poppins', sans-serif;
             color: #181818;
+        }
+        .box-content6 {
+            padding: 10px;
+            font-family: 'Poppins', sans-serif;
+            color: #181818;
 
         }
+
 
         @media screen and (max-width: 768px) {
     
@@ -293,7 +308,8 @@ body article blockquote{
     .collapsible-box2,
     .collapsible-box3,
     .collapsible-box4,
-    .collapsible-box5 {
+    .collapsible-box5,
+    .collapsible-box6{
         width: 100%; /* Adjust width for smaller screens */
     }
 }
@@ -411,39 +427,71 @@ body article blockquote{
 
                 <div class="collapsible-box2" onclick="toggleBox2()">
                     <div class="box-title"> <strong>How To Settle Environmental Violation Receipt (EVR)</strong></div>
-                         <div class="box-content3">
-                    <h5></h5>
-                    <li></li>
+                         <div class="box-content2">
+                    <h5>Requirements:</h5>
+                    <li>Scanned/E-copy of the EVR/OVR</li>
+                    <h5>Steps:</h5>
+                    <li>Present the issued EVR at the Redemption Area of DSQC for validation/verification.</li>
+                    <li>Once validated, our EVR Redemption Team will issue an Order of Payment.</li>
+                    <li>Settle the Order of Payment at the City Treasurer’s Office </li>
+                    <li>Provide the DSQC with 1 photocopy of each of the following documents: Official Receipt, valid ID, and issued EVR.</li>
                     </div>
                 </div>
                 <br>
 
-
                 <div class="collapsible-box3" onclick="toggleBox3()">
-                    <div class="box-title"> <strong>How To Request For Cleanup Operations (Riverways Cleaning Operations Group Or Special Cleaning Operations Group)</strong></div>
-                        <div class="box-content">
-                    <h5></h5>
-                    <p></p>
+                    <div class="box-title"> <strong>How To Request For Special Waste Collection</strong></div>
+                        <div class="box-content3">
+                    <h5>Steps:</h5>
+                    <li>Coordinate with your respective Barangay if you are under Home Quarantine (COVID Positive or waiting for Swab/Antigen Result).</li>
+                    <li>The Barangay will accomplish a Letter of Request for Special Waste Collection indicating the exact address of areas concerned signed by the Barangay Chairman and Barangay Doctor/Health Personnel. The Barangay will send the Letter of Request for Special Waste Collection at TFSolidWaste@quezoncity.gov.ph</li>
+                    <li>Wait for our Special Concerns Team to coordinate with your barangay once the letter is received.</li>
+                    <p>Note: The Letter of Request for Special Waste Collection will only be valid for 14 -21 days within the quarantine period of the indicated areas.</p>
                         </div>
                     </div>
                 <br>
 
                 <div class="collapsible-box4" onclick="toggleBox4()">
+                    <div class="box-title"> <strong>How To Request For Cleanup Operations (Riverways Cleaning Operations Group Or Special Cleaning Operations Group)</strong></div>
+                        <div class="box-content4">
+                    <h5>Requirements</h5>
+                    <li>Request Letter for the provision of data or training</li>
+                    <h5>Steps:</h5>
+                    <li>Send a Letter of Request for Rivers Cleaning Operations Group (RCOG) or Special Cleaning Operations Group (SCOG) indicating the exact area of concern to TFSolidWaste@quezoncity.gov.ph. The requesting party will receive an acknowledgment of the email.</li>
+                    <li>The Waste Management Operations Division will coordinate with the respective barangay once the letter is received and the information is verified.</li>
+                    <p>Note: The Letter of Request for Special Waste Collection will only be valid for 14 -21 days within the quarantine period of the indicated areas.</p>
+                        </div>
+                    </div>
+                <br>
+
+                <div class="collapsible-box5" onclick="toggleBox5()">
                     <div class="box-title"> <strong>How To Request For Bulky Waste Collection</strong></div>
-                         <div class="box-content4">
-                    <h5></h5>
-                    <p></p>
+                         <div class="box-content5">
+                    <h5>Steps:</h5>
+                    <li>Coordinate with your respective Barangay regarding Bulky Waste to be collected for schedule.g</li>
+                    <li>The Barangay will accomplish a Letter of Request for Bulky Waste Collection indicating</li>
+                    <li>The Waste Management Operations Division will coordinate with the respective barangay once the letter is received and the information is verified.</li>
+                    <p>the exact address of areas signed by the Barangay Chairman.  The Barangay will send the Letter of Request for Bulky Waste Collection at</p>
+                    <p>TFSolidWaste@quezoncity.gov.ph. The requesting party will receive an acknowledgment of the email.</p>
+                    <li>The Waste Management Operations Division will coordinate with the respective Barangay once the letter is received and the information is verified.</li>
+                    <p>Note: Bulky Waste Collection is scheduled every Sunday.</p>
                     </div>
                 </div>
                 <br>
 
-                <div class="collapsible-box5" onclick="toggleBox5()">
+                <div class="collapsible-box6" onclick="toggleBox6()">
                     <div class="box-title"> <strong>Waste Collection Schedule</strong></div>
-                         <div class="box-content5">
-                    <h5></h5>
-                    <p></p>
+                         <div class="box-content6">
+                    <h5>The following are the waste collection schedules in our city and may change during holidays or as requested by your barangay.</h5>
+                    <li>Barangay/ Household:</li>
+                    <li>Biodegradable (Monday, Wednesday, Friday)</li>
+                    <li>Biodegradable (Monday, Wednesday, Friday)</li>
+                    <li>Bulky Waste (Sunday or upon request of the Barangay)</li>
+                    <li>Main road (Daily)</li>
+                    <li>SMS [Institutions] (Daily)</li>
                     </div>
                 </div>
+            <br>
 
             <blockquote>
             "We are more than just a solid waste management organization; we are a dedicated team bound by a common purpose – to preserve, clean, and enhance the environment of our community. We are committed to managing waste responsibly, ensuring a cleaner and healthier future for all our residents."
@@ -513,6 +561,19 @@ body article blockquote{
         function toggleBox5() {
             var box = document.querySelector('.collapsible-box5');
             var boxContent = document.querySelector('.collapsible-box5 .box-content5');
+
+            // Toggle the height and content visibility
+            if (box.style.height === '40px' || box.style.height === '') {
+                box.style.height = 'auto';
+                boxContent.style.display = 'block';
+            } else {
+                box.style.height = '40px';
+                boxContent.style.display = 'none';
+            }
+        }
+        function toggleBox6() {
+            var box = document.querySelector('.collapsible-box6');
+            var boxContent = document.querySelector('.collapsible-box6 .box-content6');
 
             // Toggle the height and content visibility
             if (box.style.height === '40px' || box.style.height === '') {
