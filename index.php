@@ -153,7 +153,7 @@ session_start();
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                <a href="healthcare.php" class="box-link">
+                <a href="healthcaremain.php" class="box-link">
                     <h2>Health Services and Sanitation</h2>
                     <p>Document enhancements in health services and sanitation management</p>
                     <a href="#">Learn More</a>

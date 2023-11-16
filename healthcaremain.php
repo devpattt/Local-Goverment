@@ -16,6 +16,7 @@
     outline: none;
     border: none;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 img{
@@ -82,10 +83,13 @@ nav{
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-align: center;
+    position: center;
+
 }
 
 .btn:hover{
-    background-color: #1e40af;
+    background-color:#ff6600;
 }
 
 .container{
@@ -117,7 +121,7 @@ header .content h4{
 }
 
 header .content h1{
-    color: #fff;
+    color: #ff6600;
     margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: 700;
@@ -213,7 +217,7 @@ section .header{
 }
 
 .features .card a:hover{
-    color: #1e40af;
+    color: #ff6600;
 }
 
 .sub-header{
@@ -407,7 +411,7 @@ footer .column > a:hover{
 
         <ul class="nav-links">
             <li class="link"><a href="#">Home</a></li>
-            <li id="link1" class="link"><a href="#">Services</a></li>
+            <li id="link1" class="link"><a href="#">Guides</a></li>
             <li id="link2" class="link"><a href="#">Programs</a></li>
             <li id="link3" class="link"><a href="#">About</a></li>
         </ul>
@@ -419,11 +423,11 @@ footer .column > a:hover{
         <div class="content">
             <span class="blur"></span>
             <span class="blur"></span>
+            <H1><span>Health,</span> Care Management</H1>
             <h4>Health for all, health in the hands of the people.</h4>
-            <H1><span>Health</span>, Care Management</H1>
             <p>
-            The Quezon City Health Department serves as the frontline for public health, providing essential healthcare services and focusing on issues related to the holistic well-being of Quezon City citizens. QCHD protects and looks after the safety and health outcomes of all the communities 
-            in the City through education, policy making, and research for disease and injury prevention.
+            The primary point of contact for public health in Quezon City is the Quezon City Health Department (QCHD). It plays a crucial role in delivering vital healthcare services and addressing the comprehensive well-being of the city's residents. The QCHD is dedicated to safeguarding the safety and health of all communities within the city by engaging in activities such as education, 
+            policy formulation, and research to prevent diseases and injuries.
             </p>
         </div>
         <div class="image">
@@ -432,71 +436,71 @@ footer .column > a:hover{
     </header>
 
     <section class="container">
-        <h2 class="header">OUR SERVICES</h2>
+        <h2 class="header">GUIDES</h2>
         <div class="features">
             <div class="card">
-                <span><i class="ri-money-dollar-box-line"></i></span>
                 <h4>Issuance Of Health Certificate</h4>
                 <p>
-                    My tutorials in my channel "AsmrProg" are free and you don't need to pay anything.
+                Official document granting confirmation of health compliance, often for employment or clinical purposes.
                 </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+                <a href="healthcarecard1.php">View More<i class="ri-arrow-right-line"></i></a>
             </div>
+
             <div class="card">
-                <span><i class="ri-bug-line"></i></span>
                 <h4>Issuance Of Yellow Health Certificate</h4>
                 <p>
-                    You have any problem in your codes? Tell me, i will help you fix it.
-                </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+                Issuing official health compliance documents, typically for employment purposes.
+                </p> <br>
+                <a href="healthcarecard2.php">View More <i class="ri-arrow-right-line"></i></a>
             </div>
+
             <div class="card">
-                <span><i class="ri-history-line"></i></span>
                 <h4>Issuance Of Sanitary Permit (SP)</h4>
                 <p>
-                    We have video each 4 days, So check channel every 4 days to watch it!
+                Official approval for meeting sanitary standards, commonly required for various establishments.
                 </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+                <a href="healthcarecard3.php">View More<i class="ri-arrow-right-line"></i></a>
             </div>
+
             <div class="card">
-                <span><i class="ri-shake-hands-line"></i></span>
                 <h4>Application For Health Occupancy Permits</h4>
                 <p>
-                    You want we worrk together? Write email to us, we will read it.
-                </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+                Requesting official approval for building suitability and compliance with submitted plans.
+                </p> <br>
+                <a href="healthcarecard4.php">View More <i class="ri-arrow-right-line"></i></a>
             </div>
+
             <div class="card">
-                <span><i class="ri-shake-hands-line"></i></span>
                 <h4>Certificate Of Water Potability</h4>
                 <p>
-                    You want we worrk together? Write email to us, we will read it.
-                </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+                Official documentation confirming that water quality meets established drinking water standards.
+                </p><br>
+                <a href="healthcarecard5.php">View More<i class="ri-arrow-right-line"></i></a>
             </div>
+
             <div class="card">
-                <span><i class="ri-shake-hands-line"></i></span>
                 <h4>Issuance Of Death Certificate</h4>
                 <p>
-                    You want we worrk together? Write email to us, we will read it.
-                </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+                Official process of providing a document confirming an individual's death.
+            </p><br>
+            <br>
+                <a href="healthcarecard6.php">View More<i class="ri-arrow-right-line"></i></a>
             </div>
+
             <div class="card">
-                <span><i class="ri-shake-hands-line"></i></span>
                 <h4>Medical Consultation</h4>
                 <p>
-                    You want we worrk together? Write email to us, we will read it.
-                </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+                Healthcare provider's review of medical history, examination of the patient, and provision of care recommendations.
+                </p><br>
+                <a href="healthcarecard7.php">View More<i class="ri-arrow-right-line"></i></a>
             </div>
+
             <div class="card">
-                <span><i class="ri-shake-hands-line"></i></span>
                 <h4>Issuance Of Pre-Marriage Counseling Certificate</h4>
                 <p>
-                    You want we worrk together? Write email to us, we will read it.
+                Issuing a certificate after completing mandatory pre-marriage counseling sessions.
                 </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+                <a href="healthcarecard8.php">View More<i class="ri-arrow-right-line"></i></a>
             </div>
         </div>
     </section>
@@ -532,7 +536,7 @@ footer .column > a:hover{
                         Nutrition Advocacy
                     </p>
                 </div>
-                <button class="btn">Register Now</button>
+                <a href="HCMdetails.php" class="btn">More Details</a>
             </div>
             <div class="card">
                 <div class="content">
@@ -563,7 +567,7 @@ footer .column > a:hover{
                         PhilHealth enrollment
                     </p>
                 </div>
-                <button class="btn">Register now</button>
+                <a href="HCMdetails.php" class="btn">More Details</a>
             </div>
             <div class="card">
                 <div class="content">
@@ -586,7 +590,7 @@ footer .column > a:hover{
                         Provision of information on caring for one’s mental health
                     </p>
                 </div>
-                <button class="btn">Register Now</button>
+                <a href="HCMdetails.php" class="btn">More Details</a>
             </div>
         </div>
     </section>
@@ -612,6 +616,12 @@ footer .column > a:hover{
             <a href="#">Blogs</a>
             <a href="#">Channels</a>
             <a href="#">Sponsors</a>
+        </div>
+        <div class="column">
+            <h4>Contact</h4>
+            <a href="#">Contact Us</a>
+            <a href="#">Privicy Policy</a>
+            <a href="#">Terms & Conditions</a>
         </div>
         <div class="column">
             <h4>Contact</h4>
