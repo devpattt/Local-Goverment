@@ -1,6 +1,42 @@
 <?php
 session_start();
 
+// Establish a database connection
+$host = "127.0.0.1: 3306";
+$username = "root";
+$password = "";
+$database = "localgov";
+$con = mysqli_connect($host, $username, $password, $database);
+
+// Check connection
+if (mysqli_connect_errno()) {
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    exit();
+}
+
+// Retrieve specific data from the database
+if (isset($_POST['user_name']) && isset($_POST['password'])) {
+$user_name = $_POST['user_name'];
+$password = $_POST['password'];
+
+$query = "SELECT user_name FROM users WHERE user_name = '$user_name' AND password = '$password'";
+$result = mysqli_query($con, $query);
+
+// Fetch the data
+if (mysqli_num_rows($result) > 0) {
+$data = mysqli_fetch_assoc($result);
+$_SESSION['user_name'] = $data['user_name'];
+
+    // Redirect to the homepage or any other page
+    header("Location: index.php");
+    exit;
+} else { 
+    echo "Invalid login credentials";
+}
+}
+
+// Close the database connection
+mysqli_close($con);
 ?>
 
 <!DOCTYPE html>
@@ -34,7 +70,15 @@ session_start();
             <!--HEADER-->
             <div class="header-text">
                 <p></p>
-                <h1><span> Local<br> Goverment</span><br> Unit</h1>
+                <?php
+                // Display the username in the <h1> tag
+                if (isset($_SESSION['user_name'])) {
+                    $username = $_SESSION['user_name'];
+                    echo "<h1><span> Local<br> Government</span><br> Unit <br> Hi! $username</h1>";
+                } else {
+                    echo "<h1><span> Local<br> Government</span><br> Unit</h1>";
+                }
+                ?>
 
                 <div class="social-icons">
                     <a href="https://www.google.com/search?q=nigga+memes&tbm=isch&ved=2ahUKEwjTpoTOwaqCAxW12zgGHdwvDUYQ2-cCegQIABAA&oq=nigga+memes&gs_lcp=CgNpbWcQAzoHCAAQigUQQzoFCAAQgARQzQFYzRJg2xNoAnAAeACAAYsBiAGgCJIBAzAuOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=ck9GZdOlD7W34-EP3N-0sAQ&bih=821&biw=1600&rlz=1C1VDKB_enPH1075PH1075#imgrc=M7c78S6AhHGjtM"><i class="fab fa-twitter-square"></i></a>
@@ -153,7 +197,7 @@ session_start();
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                <a href="healthcaremain.php" class="box-link">
+                <a href="healthcare.php" class="box-link">
                     <h2>Health Services and Sanitation</h2>
                     <p>Document enhancements in health services and sanitation management</p>
                     <a href="#">Learn More</a>
