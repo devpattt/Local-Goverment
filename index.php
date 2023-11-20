@@ -81,9 +81,9 @@ mysqli_close($con);
                 ?>
 
                 <div class="social-icons">
-                    <a href="https://www.google.com/search?q=nigga+memes&tbm=isch&ved=2ahUKEwjTpoTOwaqCAxW12zgGHdwvDUYQ2-cCegQIABAA&oq=nigga+memes&gs_lcp=CgNpbWcQAzoHCAAQigUQQzoFCAAQgARQzQFYzRJg2xNoAnAAeACAAYsBiAGgCJIBAzAuOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=ck9GZdOlD7W34-EP3N-0sAQ&bih=821&biw=1600&rlz=1C1VDKB_enPH1075PH1075#imgrc=M7c78S6AhHGjtM"><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://www.facebook.com/johncedric.magsadia"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/_vvhen/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/funday_qcontop1/"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61553503624390"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/qcontop/?fbclid=IwAR2bUFYzd0XVA1V2B7vcOGew1wtsVZ7moFH_I9e1ZwryQaXP1zQV5hvVJb0"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>

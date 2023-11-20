@@ -6,18 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <link rel="stylesheet" href="admin.css">
-    <title>admin</title>
+    <title>Admin</title>
 </head>
 
 <body>
-
     <div class="container">
         <!-- Sidebar Section -->
         <aside>
             <div class="toggle">
                 <div class="logo">
                     <img src="img/Quezon_City.svg.png">
-                    <h2>QC<span class="danger">OnTop</span></h2>
+                    <h2>Qc<span class="danger">OnTop</span></h2>
                 </div>
                 <div class="close" id="close-btn">
                     <span class="material-icons-sharp">
@@ -27,30 +26,35 @@
             </div>
 
             <div class="sidebar">
+             
                 <a href="#" class="active">
                     <span class="material-icons-sharp">
                         insights
                     </span>
                     <h3>Main Dashboard</h3>
                 </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Users</h3>
+                </a>
+             
+            
                 <a href="#">
                     <span class="material-icons-sharp">
                         report_gmailerrorred
                     </span>
-                    <h3>Feedbacks</h3>
+                    <h3>Reports</h3>
                 </a>
-                <a href="#">
-                    <span class="material-icons-sharp">
-                        settings
-                    </span>
-                    <h3>Settings</h3>
-                </a>
-                <a href="#">
-                    <span class="material-icons-sharp">
-                        add
-                    </span>
-                    <h3>New Login</h3>
-                </a>
+             
                 <a href="signup.php">
                     <span class="material-icons-sharp">
                         logout
@@ -63,30 +67,56 @@
 
         <!-- Main Content -->
         <main>
-            <h1>Main Dashboard</h1>
-            <!-- Analyses -->
-            <div class="analyse">
-                <div class="sales">
-                    <div class="status">
-                        <div class="info">
-                            <h3>New Users</h3>
-                            <h1>1212</h1>
-                        </div>
-                        <div class="progresss">
-                            <svg>
-                                <circle cx="38" cy="38" r="36"></circle>
-                            </svg>
-                            <div class="percentage">
-                                <p>+81%</p>
-                            </div>
-                        </div>
+        <h1>User Dashboard</h1>
+    <div class="analyse">
+        <div class="sales">
+            <div class="status">
+                <div class="info">
+                    <h3>Overall Users</h3>
+                    <?php
+                    // Replace with your database connection code
+                    $servername = "localhost";
+                    $username = "root";
+                    $password = "";
+                    $dbname = "localgov";
+
+                    $conn = new mysqli($servername, $username, $password, $dbname);
+
+                    if ($conn->connect_error) {
+                        die("Connection failed: " . $conn->connect_error);
+                    }
+
+                    // Query to get the overall number of users
+                    $usersQuery = "SELECT COUNT(*) AS total_users FROM users";
+                    $usersResult = $conn->query($usersQuery);
+
+                    if ($usersResult->num_rows > 0) {
+                        $usersRow = $usersResult->fetch_assoc();
+                        $totalUsers = $usersRow["total_users"];
+
+                        echo '<h1>' . $totalUsers . '</h1>';
+                    } else {
+                        echo '<p>No users found.</p>';
+                    }
+
+                    $conn->close();
+                    ?>
+                </div>
+                <div class="progresss">
+                    <svg>
+                        <circle cx="38" cy="38" r="36"></circle>
+                    </svg>
+                    <div class="percentage">
+                        <p>+81%</p>
                     </div>
                 </div>
+            </div>
+        </div>
                 <div class="visits">
                     <div class="status">
                         <div class="info">
-                            <h3>Site Visit</h3>
-                            <h1>24,981</h1>
+                            <h3>New Users</h3>
+                            <h1></h1>
                         </div>
                         <div class="progresss">
                             <svg>
@@ -101,7 +131,7 @@
                 <div class="searches">
                     <div class="status">
                         <div class="info">
-                            <h3>Searches</h3>
+                            <h3>Admin   </h3>
                             <h1>14,147</h1>
                         </div>
                         <div class="progresss">
@@ -117,7 +147,7 @@
             </div>
             <!-- End of Analyses -->
 
-            <!-- New Users Section -->
+            <!-- New Users Section 
             <div class="new-users">
                 <h2>New Users</h2>
                 <div class="user-list">
@@ -143,26 +173,8 @@
                     </div>
                 </div>
             </div>
-            <!-- End of New Users Section -->
+          -->
 
-            <!-- Recent Orders Table -->
-            <div class="recent-orders">
-                <h2>Recent Orders</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Course Name</th>
-                            <th>Course Number</th>
-                            <th>Payment</th>
-                            <th>Status</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>
-                <a href="#">Show All</a>
-            </div>
-            <!-- End of Recent Orders -->
 
         </main>
         <!-- End of Main Content -->
@@ -186,11 +198,11 @@
 
                 <div class="profile">
                     <div class="info">
-                        <p>Hey, <b>Reza</b></p>
+                        <p>Welcome, <b>Admin</b></p>
                         <small class="text-muted">Admin</small>
                     </div>
                     <div class="profile-photo">
-                        <img src="images/profile-1.jpg">
+                        <img src="img/hehe-removebg-preview.png">
                     </div>
                 </div>
 
@@ -263,11 +275,10 @@
             </div>
 
         </div>
-
-
     </div>
 
-    <script>const sideMenu = document.querySelector('aside');
+    <script>
+const sideMenu = document.querySelector('aside');
 const menuBtn = document.getElementById('menu-btn');
 const closeBtn = document.getElementById('close-btn');
 
@@ -287,39 +298,33 @@ darkMode.addEventListener('click', () => {
     darkMode.querySelector('span:nth-child(2)').classList.toggle('active');
 })
 
+document.addEventListener("DOMContentLoaded", function () {
+        // Fetch the total users from the database
+        fetch('get_total_users.php')
+            .then(response => response.json())
+            .then(data => {
+                console.log('Data from server:', data);
 
-Orders.forEach(order => {
-    const tr = document.createElement('tr');
-    const trContent = `
-        <td>${order.productName}</td>
-        <td>${order.productNumber}</td>
-        <td>${order.paymentStatus}</td>
-        <td class="${order.status === 'Declined' ? 'danger' : order.status === 'Pending' ? 'warning' : 'primary'}">${order.status}</td>
-        <td class="primary">Details</td>
-    `;
-    tr.innerHTML = trContent;
-    document.querySelector('table tbody').appendChild(tr);
-});</script>
-    <script>const Orders = [
-    {
-        productName: 'JavaScript Tutorial',
-        productNumber: '85743',
-        paymentStatus: 'Due',
-        status: 'Pending'
-    },
-    {
-        productName: 'CSS Full Course',
-        productNumber: '97245',
-        paymentStatus: 'Refunded',
-        status: 'Declined'
-    },
-    {
-        productName: 'Flex-Box Tutorial',
-        productNumber: '36452',
-        paymentStatus: 'Paid',
-        status: 'Active'
-    },
-]</script>
+                if (data.hasOwnProperty('users')) {
+                    const totalUsers = data.users;
+
+                    // Set the circle's stroke-dashoffset property based on the actual number of users
+                    const circle = document.querySelector('.progresss circle');
+                    const dashoffset = 227 - (totalUsers / 1000) * 227; // 227 is the total circumference of the circle
+                    circle.style.strokeDashoffset = dashoffset;
+
+                    // Display the percentage dynamically
+                    const percentageElement = document.querySelector('.percentage p');
+                    percentageElement.textContent = `+${Math.round((totalUsers / 1000) * 100)}%`;
+                } else {
+                    console.error('Error: No users property in the response.');
+                }
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    });
+
+   
+</script>
 </body>
 
 </html>
