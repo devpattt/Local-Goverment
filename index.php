@@ -197,7 +197,7 @@ mysqli_close($con);
                 </div>
                 <div>
                 <img src="img/Quezon_City.svg.png" class="logo">
-                <a href="healthcare.php" class="box-link">
+                <a href="healthcaremain.php" class="box-link">
                     <h2>Health Services and Sanitation</h2>
                     <p>Document enhancements in health services and sanitation management</p>
                     <a href="#">Learn More</a>
@@ -285,26 +285,25 @@ mysqli_close($con);
         <div class="container">
             <div class="row">
                 <div class="contact-left">
-                    <h1 class="sub-title"> Contact<span> Us</span></h1>
-                    <p><i class="fa-solid fa-share"></i>lgu@kdnfandfndpfipsda</p>
-                    <p><i class="fa-solid fa-phone"></i></i>0123456789</p>
+                    <h1 class="sub-title">Feedback<span>!</span></h1>
+                    <p><i class="fa-solid fa-share"></i>QcOnTop@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i></i>09285725503</p>
 
                     <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61553503624390"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/qcontop/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/funday_qcontop1/"><i class="fab fa-twitter-square"></i></a>
                        
                     </div>
-                    <a href="img/Resume.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                </div>
+                <form method="POST" action="process_form.php">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
 
             </div>
         </div>
